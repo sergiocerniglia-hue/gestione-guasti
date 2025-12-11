@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="https://sergiocerniglia-hue.github.io/gestione-guasti/GestioneSegnalazioneGuasti.Package_x64.appinstaller"
+	Version="1.0.4.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainPackage
+		Name="aabe09ae-0a8e-4b92-b601-f2afd29d3395"
+		Version="1.0.4.0"
+		Publisher="CN=Sergio Cerniglia"
+		Uri="https://sergiocerniglia-hue.github.io/gestione-guasti/GestioneSegnalazioneGuasti.Package_1.0.4.0_x64_Test/GestioneSegnalazioneGuasti.Package_1.0.4.0_x64.msix"
+		ProcessorArchitecture="x64" />
+	<Dependencies>
+		<Package
+			Name="Microsoft.WindowsAppRuntime.1.8"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://sergiocerniglia-hue.github.io/gestione-guasti/GestioneSegnalazioneGuasti.Package_1.0.4.0_x64_Test/Dependencies/x64/Microsoft.WindowsAppRuntime.1.8.msix"
+			Version="8000.675.1142.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00.UWPDesktop"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://sergiocerniglia-hue.github.io/gestione-guasti/GestioneSegnalazioneGuasti.Package_1.0.4.0_x64_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.Desktop.appx"
+			Version="14.0.33728.0" />
+		<Package
+			Name="Microsoft.VCLibs.140.00"
+			Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+			ProcessorArchitecture="x64"
+			Uri="https://sergiocerniglia-hue.github.io/gestione-guasti/GestioneSegnalazioneGuasti.Package_1.0.4.0_x64_Test/Dependencies/x64/Microsoft.VCLibs.x64.14.00.appx"
+			Version="14.0.33519.0" />
+	</Dependencies>
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>
